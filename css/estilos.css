@@ -11,31 +11,63 @@ main{
 }
 
 header {
-  border: 1px solid blue;
-  height: 150px;
+  height: 152px;
+
+}
+
+header img {
+  width: 100%
+
 }
 
 nav {
-  border: 1px solid blue;
+  clear: both;
+  border-bottom-left-radius: 15px;
+  background-color: #1B4A48;
+  text-align: center;
   height: 50px;
+  border-bottom-right-radius: 15px;
+}
+
+nav ul{
+  list-style: none;
+  padding-top: 10px;
+}
+
+nav ul li {
+  display: inline;
+  color: #ffffff;
+  padding: 10px 30px 10px 30px;
+  font-size: 20px;
 }
 
 section{
   border: 1px solid red;
   height: 380px;
   width: 500px;
-  float: left;
+  display: inline-block;
+}
+
+section article {
+  background-color: #F3FA9C;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  height: 188px;
 }
 
 aside{
   border: 1px solid blue;
+  display: inline-block;
   height: 380px;
   width: 280px;
   float: right;
 }
 
+aside header {
+  border: 1px solid black;
+}
+
 footer{
-  clear: both;
   border: 1px solid black;
   height: 60px;
 }
