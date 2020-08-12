@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+nav{
+  display: flex;
+  align-items: center;
+  background-color: #222222;
+  justify-content: space-between;
+  height: 40px;
+}
+nav div{
+  width: 150px;
+  color: #ffffff;
+  text-align: right;
+}
+#Maquetado{
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  #logo{
+    color: red;
+  }
+  #Maquetado{
+    display: inline;
+  }
+}
